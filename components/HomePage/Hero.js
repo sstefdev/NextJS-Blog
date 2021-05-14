@@ -1,10 +1,10 @@
 import Image from "next/image";
-import classes from "./Hero.module.css";
+import styles from "./Hero.module.css";
 
 const Hero = () => {
   return (
-    <section className={classes.hero}>
-      <div className={classes.image}>
+    <section className={styles.hero}>
+      <div className={styles.image}>
         <Image
           src="/images/site/profile.jpg"
           alt="An image showing Stefan"
